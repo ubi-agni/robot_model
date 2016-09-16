@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 2.8.3)
 project(urdf)
 
 find_package(Boost REQUIRED thread)
-find_package(urdfdom_headers 0.4 REQUIRED)
-find_package(urdfdom 0.4 REQUIRED)
+find_package(urdfdom_headers 0.5 REQUIRED)
+find_package(urdfdom 0.5 REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
   urdf_parser_plugin pluginlib rosconsole_bridge roscpp cmake_modules)
 
