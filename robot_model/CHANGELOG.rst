@@ -2,6 +2,25 @@
 Changelog for package robot_model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.11 (2017-06-27)
+--------------------
+
+1.12.10 (2017-06-24)
+--------------------
+
+1.12.9 (2017-04-26)
+-------------------
+* Adds deprecation message to robot_model package.xml (`#196 <https://github.com/ros/robot_model/issues/196>`_)
+* Contributors: Shane Loretz
+
+1.12.8 (2017-03-27)
+-------------------
+* add Chris and Shane as maintainers (`#184 <https://github.com/ros/robot_model/issues/184>`_)
+* Contributors: William Woodall
+
+1.12.7 (2017-01-26)
+-------------------
+
 1.12.6 (2017-01-04)
 -------------------
 

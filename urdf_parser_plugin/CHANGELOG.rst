@@ -2,6 +2,23 @@
 Changelog for package urdf_parser_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.11 (2017-06-27)
+--------------------
+
+1.12.10 (2017-06-24)
+--------------------
+
+1.12.9 (2017-04-26)
+-------------------
+
+1.12.8 (2017-03-27)
+-------------------
+* add Chris and Shane as maintainers (`#184 <https://github.com/ros/robot_model/issues/184>`_)
+* Contributors: William Woodall
+
+1.12.7 (2017-01-26)
+-------------------
+
 1.12.6 (2017-01-04)
 -------------------
 * Now using ``urdf::*ShredPtr`` instead of ``boost::shared_ptr`` (`#144 <https://github.com/ros/robot_model/issues/144>`_)

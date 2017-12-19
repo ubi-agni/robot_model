@@ -2,6 +2,30 @@
 Changelog for package joint_state_publisher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.12.11 (2017-06-27)
+--------------------
+
+1.12.10 (2017-06-24)
+--------------------
+
+1.12.9 (2017-04-26)
+-------------------
+
+1.12.8 (2017-03-27)
+-------------------
+* [joint_state_publisher] Handle time moving backwards
+  Without this patch, joint_state_publisher dies whenever the ROS time moves backwards (e.g., when running `rosbag play --clock --loop`).
+* Switch a couple more packages over to Chris and Shane.
+* Fix rostest dependency.
+* Add recursive mimic joint (`#177 <https://github.com/ros/robot_model/issues/177>`_)
+  * Add recursive mimic joint
+* Contributors: Alessandro Tondo, Chris Lalancette, Martin Günther, Mike Purvis
+
+1.12.7 (2017-01-26)
+-------------------
+* Fixed a crash which happened when there were ``0`` free joints, opens empty window (`#178 <https://github.com/ros/robot_model/issues/178>`_)
+* Contributors: Bence Magyar
+
 1.12.6 (2017-01-04)
 -------------------
 * Migrated slots in joint state publisher gui to Qt5 (`#147 <https://github.com/ros/robot_model/issues/147>`_)
